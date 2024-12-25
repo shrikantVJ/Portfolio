@@ -1,7 +1,4 @@
-import { Button } from "/components/ui/button"
-import { Input } from "/components/ui/input"
-import { Textarea } from "/components/ui/textarea"
-import { Card, CardContent, CardHeader, CardTitle } from "/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "/components/ui/card";
 
 export default function Contact() {
   return (
@@ -15,33 +12,57 @@ export default function Contact() {
             <CardTitle className="text-2xl text-white">Get in Touch</CardTitle>
           </CardHeader>
           <CardContent>
-            <form className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-400 mb-1">Name</label>
-                  <Input id="name" placeholder="Your Name" className="bg-zinc-800 border-zinc-700 text-white" />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-400 mb-1">Email</label>
-                  <Input id="email" type="email" placeholder="your@email.com" className="bg-zinc-800 border-zinc-700 text-white" />
-                </div>
-              </div>
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-400 mb-1">Subject</label>
-                <Input id="subject" placeholder="Subject" className="bg-zinc-800 border-zinc-700 text-white" />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-400 mb-1">Message</label>
-                <Textarea id="message" placeholder="Your message" className="bg-zinc-800 border-zinc-700 text-white" rows={4} />
-              </div>
-              <Button type="submit" className="w-full bg-teal-500 hover:bg-teal-600 text-white">
-                Send Message
-              </Button>
-            </form>
+            <ul className="space-y-4 text-gray-400">
+              <li>
+                <span className="block text-white font-semibold">Email:</span>
+                <a
+                  href="mailto:your-email@example.com"
+                  className="text-teal-500 hover:underline"
+                >
+                  jadhashrikant@gmail.com
+                </a>
+              </li>
+              <li>
+                <span className="block text-white font-semibold">Phone:</span>
+                <a
+                  href="tel:+1234567890"
+                  className="text-teal-500 hover:underline"
+                >
+                  +91 81044 75493
+                </a>
+              </li>
+              <li>
+                <span className="block text-white font-semibold">Location:</span>
+                <span className="text-gray-400">
+                  kalyan-Bhiwandi Road, Kalyan, Maharashtra, India
+                </span>
+              </li>
+              <li>
+                <span className="block text-white font-semibold">LinkedIn:</span>
+                <a
+                  href="https://www.linkedin.com/in/shrikant-jadhav-569330270"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-teal-500 hover:underline"
+                >
+                  linkedin.com/in/shrikant-jadhav-569330270
+                </a>
+              </li>
+              <li>
+                <span className="block text-white font-semibold">GitHub:</span>
+                <a
+                  href="https://github.com/shrikantVJ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-teal-500 hover:underline"
+                >
+                  github.com/shrikantVJ
+                </a>
+              </li>
+            </ul>
           </CardContent>
         </Card>
       </div>
     </section>
-  )
+  );
 }
-

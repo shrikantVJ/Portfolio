@@ -1,23 +1,27 @@
-import Image from "next/image"
-import { Card, CardContent } from "/components/ui/card"
+import Image from "next/image";
+import Link from "next/link";
+import { Card, CardContent } from "/components/ui/card";
 
 const projects = [
   {
-    title: "Project 1",
-    image: "/placeholder.svg",
-    category: "Web Design"
+    title: "Gaming Wordpress",
+    image: "/images/project/Screenshot 2024-12-18 120901.png",
+    category: "Web Design",
+    link: "https://example.com/gaming-wordpress", // Replace with your link
   },
   {
-    title: "Project 2",
-    image: "/placeholder.svg",
-    category: "UI/UX"
+    title: "Disney + Hotstar Clone",
+    image: "/images/project/Screenshot 2024-11-08 172526.png",
+    category: "Web Design",
+    link: "https://github.com/shrikantVJ/Growintern-Task-2-Disney-Hostar-clone", // Replace with your link
   },
   {
-    title: "Project 3",
-    image: "/placeholder.svg",
-    category: "Mobile App"
-  }
-]
+    title: "Space Info Web",
+    image: "/images/project/Screenshot 2024-11-08 171214.png",
+    category: "Web Design",
+    link: "https://github.com/shrikantVJ/Space-Web", // Replace with your link
+  },
+];
 
 export default function Projects() {
   return (
@@ -29,13 +33,15 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <Card key={index} className="bg-zinc-900 border-zinc-800 overflow-hidden">
-              <Image
-                src={project.image}
-                alt={project.title}
-                width={400}
-                height={300}
-                className="w-full object-cover"
-              />
+              <Link href={project.link} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={400}
+                  height={300}
+                  className="w-full object-cover cursor-pointer"
+                />
+              </Link>
               <CardContent className="p-4">
                 <h3 className="text-lg font-semibold text-white">{project.title}</h3>
                 <p className="text-gray-400">{project.category}</p>
@@ -45,6 +51,5 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

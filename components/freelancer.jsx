@@ -1,4 +1,4 @@
-import { Button } from "/components/ui/button"
+import { Button } from "/components/ui/button";
 
 export default function Freelancer() {
   return (
@@ -12,12 +12,13 @@ export default function Freelancer() {
           <p className="text-gray-400 mb-8">
             We provide high-quality clean solutions for your business solutions
           </p>
-          <Button className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-6">
-            Contact Me
-          </Button>
+          <a href="#contact">
+            <Button className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-6">
+              Contact Me
+            </Button>
+          </a>
         </div>
       </div>
     </section>
-  )
+  );
 }
-

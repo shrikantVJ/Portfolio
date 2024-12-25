@@ -3,22 +3,22 @@ import { Briefcase } from 'lucide-react'
 
 const experiences = [
   {
-    title: "Senior Web Developer",
-    company: "Tech Company A",
-    period: "2020 - Present",
-    description: "Led development of multiple web applications using modern technologies."
+    title: "Web Designer",
+    company: "Grow Intern",
+    period: "2023 - 1 month",
+    description: "The Grow Intern is provide project based virtual internships and i am succesfully completed."
   },
   {
-    title: "UI/UX Designer",
-    company: "Design Studio B",
-    period: "2018 - 2020",
-    description: "Created user-centered designs for various digital products."
+    title: "Front-end Developer",
+    company: "CognoRise",
+    period: "2023 - 1 month",
+    description: "The CognoRise is provide project based virtual internships and i am succesfully completed."
   },
   {
-    title: "Junior Developer",
-    company: "Startup C",
-    period: "2016 - 2018",
-    description: "Developed and maintained web applications and mobile apps."
+    title: "Web Developer",
+    company: "Osis Infobyte",
+    period: "2023 - 1 month",
+    description: "The Grow Intern is provide project based virtual internships and i am succesfully completed."
   }
 ]
 

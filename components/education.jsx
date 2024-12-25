@@ -3,19 +3,19 @@ import { GraduationCap } from 'lucide-react'
 
 const education = [
   {
-    degree: "BSc SSC Mathematics",
-    institution: "Sample University",
-    year: "2018 - 2022"
+    degree: "BCA",
+    institution: "Kavikulguru Kalidas Sanskrit University",
+    year: "2023 - 2026"
   },
   {
-    degree: "HSC Programming",
-    institution: "Sample College",
-    year: "2016 - 2018"
+    degree: "HSC",
+    institution: "M. K. College Mumbai University",
+    year: "2022 - 2023"
   },
   {
-    degree: "First Year of Education",
-    institution: "Sample School",
-    year: "2015 - 2016"
+    degree: "JAVA and Android App Development Program",
+    institution: "Inters elite",
+    year: "2023 - 2024"
   }
 ]
 
