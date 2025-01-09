@@ -17,7 +17,7 @@ export default function Navbar() {
               className="w-8 h-8 rounded-full"
             />
             {/* Portfolio Text */}
-            <span className="text-white font-semibold">Portfolio</span>
+            <span className="text-white font-semibold">Shrikant</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
