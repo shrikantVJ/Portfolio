@@ -42,13 +42,13 @@ export default function Hero() {
               {/* This is the circle */}
             </div>
             {/* Image */}
-            <Image
+            {/* <Image
               src="/images/shri.png"
               alt="Profile"
               width={500}
               height={500}
               className="relative rounded-2xl group-hover:z-10"
-            />
+            /> */}
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import Skills from '../../components/skills'
 import Freelancer from '../../components/freelancer'
 import Achievements from '../../components/achievements'
 import Projects from '../../components/projects'
-import Experience from '../../components/experience'
+// import Experience from '../../components/experience'
 import Education from '../../components/education'
 import Contact from '../../components/contact'
 import Footer from '../../components/footer'
@@ -20,7 +20,7 @@ export default function Home() {
       <Freelancer />
       <Achievements />
       <Projects />
-      <Experience />
+      {/* <Experience /> */}
       <Education />
       <Contact />
       <Footer />
