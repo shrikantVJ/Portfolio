@@ -1,6 +1,6 @@
 import Navbar from '../../components/navbar'
 import Hero from '../../components/hero'
-import About from '../../components/about'
+// import About from '../../components/about'
 import Skills from '../../components/skills'
 import Freelancer from '../../components/freelancer'
 import Achievements from '../../components/achievements'
@@ -15,7 +15,7 @@ export default function Home() {
     <main className="min-h-screen bg-zinc-900">
       <Navbar />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Freelancer />
       <Achievements />

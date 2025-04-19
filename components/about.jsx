@@ -17,9 +17,9 @@ export default function About() {
               <div>
                 <h3 className="text-teal-500 font-semibold mb-2">Contact Details</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li>Email: contact@example.com</li>
-                  <li>Phone: +1 234 567 890</li>
-                  <li>Location: City, Country</li>
+                  <li>Email: jadhashrikant@gmail.com</li>
+                  <li>Phone: +91 8104475493</li>
+                  <li>Location: Kalyan, India</li>
                 </ul>
               </div>
               <div>
