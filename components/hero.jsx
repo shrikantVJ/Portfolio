@@ -3,8 +3,8 @@ import React from "react";
 import { BackgroundLines } from "@/../components/ui/bglines";
 import { Button } from "@/../components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
-import RotatingText from "./RotatingText";
+// import Image from "next/image";
+import RotatingText from "@/../components/rotatingtext";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function HeroWithBackgroundLines() {
@@ -19,7 +19,7 @@ export default function HeroWithBackgroundLines() {
           I'm a Creative
           <span className="block text-teal-400">Developer</span>
         </h1>
-{/* 
+
         <RotatingText
           texts={["React.Js", "Next.js", "Tailwind CSS", "3x Hackathon Winner"]}
           mainClassName="px-2 sm:px-2 md:px-3 text-grey bold overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
@@ -31,7 +31,7 @@ export default function HeroWithBackgroundLines() {
           splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
           transition={{ type: "spring", damping: 30, stiffness: 400 }}
           rotationInterval={2000}
-        /> */}
+        />
 
         <div className="flex justify-center gap-4">
           {/* GitHub Button */}
