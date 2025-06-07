@@ -28,7 +28,7 @@ export default function ProjectsSection() {
       title: "CodePathshala",
       description:
         "An interactive learning platform that offers coding courses, mock tests, and personalized roadmaps to help students and professionals upskill in web development and programming.",
-      image: "/images/bluecircle.webp",
+      image: "/images/code.webp",
       tags: ["React", "OpenAI API", "Node.js", "Express"],
       demoLink: "https://jobportal-liart.vercel.app/",
       codeLink: "#",
