@@ -31,7 +31,7 @@ export default function ProjectsSection() {
       image: "/images/code.webp",
       tags: ["React", "OpenAI API", "Node.js", "Express"],
       demoLink: "https://jobportal-liart.vercel.app/",
-      codeLink: "#",
+      codeLink: "https://github.com/shrikantVJ/jobportal",
     },
       {
       title: "DishaMarg",
