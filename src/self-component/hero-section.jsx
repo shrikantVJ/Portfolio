@@ -1,13 +1,16 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Github, Mail, Linkedin } from "lucide-react"
-import Image from "next/image"
-import { Button } from "@/self-component/ui/button"
+import { motion } from "framer-motion";
+import { Github, Mail, Linkedin } from "lucide-react";
+import Image from "next/image";
+import { Button } from "@/self-component/ui/button";
 
 export default function HeroSection() {
   return (
-    <section id="home" className="min-h-screen flex items-center relative pt-20">
+    <section
+      id="home"
+      className="min-h-screen flex items-center relative pt-20"
+    >
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -16,35 +19,45 @@ export default function HeroSection() {
           className="space-y-6"
         >
           <div className="space-y-2">
-            <h2 className="text-xl md:text-2xl font-light text-purple-400">Hello, I'm</h2>
+            <h2 className="text-xl md:text-2xl font-light text-purple-400">
+              Hello, I'm
+            </h2>
             <h1 className="text-4xl md:text-6xl font-bold">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                Alex Johnson
+                Shrikant Jadhav
               </span>
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-300">Full Stack Developer</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-300">
+              Full Stack Developer
+            </h2>
           </div>
 
           <p className="text-gray-400 text-lg max-w-lg">
-            I build exceptional digital experiences that are fast, accessible, and designed with best practices. Let's
-            create something amazing together.
+            I build exceptional digital experiences that are fast, accessible,
+            and designed with best practices. Let's create something amazing
+            together.
           </p>
 
           <div className="flex space-x-4">
-            <Button className="glow-button">Download CV</Button>
-            <Button variant="outline" className="border-purple-500 hover:bg-purple-500/20 transition-all duration-300">
+            <a href="/Shrikant Jadhav Resume.pdf" download className="glow-button">
+              <Button className="glow-button">Download CV</Button>
+            </a>
+            <Button
+              variant="outline"
+              className="border-purple-500 hover:bg-purple-500/20 transition-all duration-300"
+            >
               Contact Me
             </Button>
           </div>
 
           <div className="flex space-x-4 pt-4">
-            <a href="#" className="social-icon">
+            <a href="https://github.com/shrikantVJ" className="social-icon">
               <Github size={20} />
             </a>
-            <a href="#" className="social-icon">
+            <a href="https://www.linkedin.com/in/shrikant-jadhav-569330270" className="social-icon">
               <Linkedin size={20} />
             </a>
-            <a href="#" className="social-icon">
+            <a href="jadhashrikant@gmail.com" className="social-icon">
               <Mail size={20} />
             </a>
           </div>
@@ -60,7 +73,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 blur-3xl opacity-20 animate-pulse"></div>
             <div className="hero-image-container">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/images/animeted1.png"
                 alt="Developer Portrait"
                 width={600}
                 height={600}
@@ -80,5 +93,5 @@ export default function HeroSection() {
         </a>
       </div>
     </section>
-  )
+  );
 }

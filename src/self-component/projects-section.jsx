@@ -1,36 +1,66 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import ProjectCard from "@/self-component/project-card"
-import { Button } from "@/self-component/ui/button"
+import { motion } from "framer-motion";
+import ProjectCard from "@/self-component/project-card";
+import { Button } from "@/self-component/ui/button";
 
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured online store with cart, checkout, and payment integration.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoLink: "#",
-      codeLink: "#",
+      title: "Digiclaim",
+      description:
+        "Digiclami is a digital platform designed to streamline municipal claims and complaints, enabling citizens to submit, track, and resolve issues with ease and transparency.",
+      image: "/images/digiclami.webp",
+      tags: ["React", "Next.js", "Node.js", "MongoDB", "Stripe"],
+      demoLink: "https://digiclaim.vercel.app/dashboard",
+      codeLink: "",
     },
     {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media performance tracking.",
-      image: "/placeholder.svg?height=600&width=800",
+      title: "Marg.ai",
+      description:
+        "Marg.ai is an AI-powered career path navigator that helps students explore career options with virtual mentors, AI roadmaps, mock interviews, resume builders, and more.",
+      image: "/images/marg.webp",
       tags: ["Next.js", "Chart.js", "Tailwind CSS", "API Integration"],
-      demoLink: "#",
+      demoLink: "https://marg-ai.vercel.app/",
       codeLink: "#",
     },
     {
-      title: "AI Content Generator",
-      description: "Tool that uses AI to generate marketing content and social posts.",
-      image: "/placeholder.svg?height=600&width=800",
+      title: "CodePathshala",
+      description:
+        "An interactive learning platform that offers coding courses, mock tests, and personalized roadmaps to help students and professionals upskill in web development and programming.",
+      image: "/images/bluecircle.webp",
       tags: ["React", "OpenAI API", "Node.js", "Express"],
-      demoLink: "#",
+      demoLink: "https://jobportal-liart.vercel.app/",
       codeLink: "#",
     },
-  ]
+      {
+      title: "DishaMarg",
+      description:
+        "An AI-powered career guidance platform that provides personalized career recommendations and learning paths for students based on their skills and interests.",
+      image: "/images/disha.webp",
+      tags: ["React", "OpenAI API", "Node.js", "Express"],
+      demoLink: "https://dishamarg.vercel.app/",
+      codeLink: "#",
+    },
+      {
+      title: "Green Meal",
+      description:
+        "A meal planning app that suggests healthy recipes based on dietary preferences and tracks nutritional intake, helping users lead a healthier lifestyle.",
+      image: "/images/greenmeal.webp",
+      tags: ["React", "OpenAI API", "Node.js", "Express"],
+      demoLink: "https://technovate-app.vercel.app/",
+      codeLink: "#",
+    },
+     {
+      title: "Ticket Dada",
+      description:
+        "A frontend-only movie booking system built with Next.js and Tailwind CSS, inspired by BookMyShow. Users can browse movies, view showtimes, select seats, and generate booking summaries — all fully functional without backend or authentication.",
+      image: "/images/Ticketdada.png",
+      tags: ["React", "OpenAI API", "Node.js", "Express"],
+      demoLink: "https://movie-ticket-booking-system-sage.vercel.app/",
+      codeLink: "https://github.com/shrikantVJ/movie-ticket-booking-system",
+    },
+  ];
 
   return (
     <section id="projects" className="py-20 relative">
@@ -57,5 +87,5 @@ export default function ProjectsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

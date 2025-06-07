@@ -51,6 +51,10 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        
+      },
+      fontFamily: {
+        handwriting: ['Pacifico', 'cursive'],
       },
       borderRadius: {
         lg: "var(--radius)",

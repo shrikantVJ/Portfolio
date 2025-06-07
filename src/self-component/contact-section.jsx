@@ -53,7 +53,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold">Call Me</h4>
-                  <p className="text-gray-400">+1 (123) 456-7890</p>
+                  <p className="text-gray-400">+91 8104475493</p>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold">Email</h4>
-                  <p className="text-gray-400">alex@example.com</p>
+                  <p className="text-gray-400">jadhashrikant@gmail.com</p>
                 </div>
               </div>
 
@@ -99,7 +99,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold">Location</h4>
-                  <p className="text-gray-400">San Francisco, USA</p>
+                  <p className="text-gray-400">Kalyan, Mumbai - Maharashtra</p>
                 </div>
               </div>
             </div>
